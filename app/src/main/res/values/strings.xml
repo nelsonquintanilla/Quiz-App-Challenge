@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Quiz App Challenge Week 2</string>
+    <string name="q1">Question 1: What is the result of the following operation: 2 + 2?</string>
+    <string name="o1_q1">4</string>
+    <string name="o2_q1">2</string>
+    <string name="o3_q1">22</string>
+    <string name="o4_q1">0</string>
+
+    <string name="q2">Question 2: What is the result of the following operation: 2 x 4?</string>
+    <string name="o1_q2">4</string>
+    <string name="o2_q2">3</string>
+    <string name="o3_q2">22</string>
+    <string name="o4_q2">8</string>
+
+    <string name="q3">Question 3: What is the result of the following operation: 5 + 5?</string>
+    <string name="o1_q3">4</string>
+    <string name="o2_q3">2</string>
+    <string name="o3_q3">10</string>
+    <string name="o4_q3">6</string>
+
+    <string name="q4">Question 4: What is the result of the following operation: 8 x 7?</string>
+    <string name="o1_q4">56</string>
+    <string name="o2_q4">2</string>
+    <string name="o3_q4">22</string>
+    <string name="o4_q4">0</string>
+
+    <string name="q5">Question 5: Which of the following are animals?</string>
+    <string name="o1_q5">Dog</string>
+    <string name="o2_q5">Door</string>
+    <string name="o3_q5">Cat</string>
+    <string name="o4_q5">Car</string>
+
+    <string name="q6">Question 6: Which of the following are not animals?</string>
+    <string name="o1_q6">Dog</string>
+    <string name="o2_q6">Door</string>
+    <string name="o3_q6">Cat</string>
+    <string name="o4_q6">Car</string>
+
+    <string name="q7">Question 7: Which of the following are fruits?</string>
+    <string name="o1_q7">Banana</string>
+    <string name="o2_q7">Onion</string>
+    <string name="o3_q7">Strawberry</string>
+    <string name="o4_q7">Pizza</string>
+
+    <string name="q8">Question 8: Which of the following are colors?</string>
+    <string name="o1_q8">Yellow</string>
+    <string name="o2_q8">Door</string>
+    <string name="o3_q8">Blue</string>
+    <string name="o4_q8">Car</string>
+</resources>
