@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
@@ -9,7 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:text="Question 1"
+        android:text="@string/question_1_rb"
         android:textColor="#000000" />
 
     <RadioGroup
@@ -23,25 +22,25 @@
             android:id="@+id/radio_button_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="option 1"/>
+            android:text="@string/option_1_rb" />
 
         <RadioButton
             android:id="@+id/radio_button_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="option 2"/>
+            android:text="@string/option_2_rb" />
 
         <RadioButton
             android:id="@+id/radio_button_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="option 3"/>
+            android:text="@string/option_3_rb" />
 
         <RadioButton
             android:id="@+id/radio_button_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="option 4"/>
+            android:text="@string/option_4_rb" />
 
     </RadioGroup>
 
@@ -50,6 +49,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/radio_group"
-        android:text="Submit"/>
+        android:text="@string/submit_b" />
 
 </RelativeLayout>

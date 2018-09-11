@@ -47,4 +47,18 @@
     <string name="o2_q8">Door</string>
     <string name="o3_q8">Blue</string>
     <string name="o4_q8">Car</string>
+
+    <string name="question_1_rb_2">Question 1</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="submit">Submit</string>
+
+    <string name="question_1_rb">Question 1</string>
+    <string name="option_1_rb">option 1</string>
+    <string name="option_2_rb">option 2</string>
+    <string name="option_3_rb">option 3</string>
+    <string name="option_4_rb">option 4</string>
+    <string name="submit_b">Submit</string>
 </resources>

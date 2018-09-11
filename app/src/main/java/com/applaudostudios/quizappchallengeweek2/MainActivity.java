@@ -9,37 +9,40 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
     private List<Question> mQuestionsSet;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // Calling the setData method
         setData();
 
-        mRecyclerView = findViewById(R.id.my_recycler_view);
+        RecyclerView mRecyclerView = findViewById(R.id.my_recycler_view);
 
-        // use this setting to improve performance if you know that changes
-        // in content do not change the layout size of the RecyclerView
+        // To improve performance
         mRecyclerView.setHasFixedSize(true);
 
-        // use a linear layout manager
-        mLayoutManager = new LinearLayoutManager(this);
+        // Using a linear layout manager
+        RecyclerView.LayoutManager mLayoutManager = new LinearLayoutManager(this);
         mRecyclerView.setLayoutManager(mLayoutManager);
 
-        // specify an adapter (see also next example)
-        mAdapter = new QuestionsAdapter(mQuestionsSet);
+        // Specifying an adapter
+        RecyclerView.Adapter mAdapter = new QuestionsAdapter(mQuestionsSet);
         mRecyclerView.setAdapter(mAdapter);
     }
 
+    /**
+     * Creates the questions and their options
+     */
     private void setData() {
         mQuestionsSet = new ArrayList<>();
         Option option;
         Question question;
 
+        // Each option is stored in this List and then this List is passed as a field to the
+        // question object
         List<Option> optionList1 = new ArrayList<>();
 
         option = new Option(getString(R.string.o1_q1), true);
